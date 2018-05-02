@@ -1,0 +1,119 @@
+html,body,div,span,iframe,map,img,a img,samp,strong,hr,
+h1,h2,h3,h4,h5,h6,b,p,blockquote,a,address,code,dl,dt,dd,ol,
+ul,li,form,label,table,tr,td,th,input,textarea{padding:0;margin:0;border:0;font-family: Microsoft YaHei;}
+ul,li{list-style:none;}
+.clear{clear: both;}
+/*头部开始*/
+#Head{width: 100%;background: #fff;padding-top: 10px;box-shadow: 10px 0 100px 100px #ccc;}
+#Head .content{width: 100%;height: 80px;margin: 0 auto;}
+#Head .content .left{float: left;margin:6px 0 0 100px; }
+#Head .content .left img{height: 60px;}
+#Head .content .middle{height: 40px;padding-top: 15px;float: right;margin-right:100px;}
+#Head .content .middle .a{display: block; padding:0 10px;text-decoration: none;color: #fff;
+	font: 14px/24px "微软雅黑";background: #00b4ff;border-radius: 5px;}
+#Head .content .right{width: 586px;height: 40px;float: right;padding-top: 15px;margin-right:15px;position: relative;}
+#Head .content .right .list .one{float: left;height: 30px; }
+#Head .content .right .list .one .a{display: block;text-decoration: none;color: #555; padding:0 15px;
+	font: 14px/24px "微软雅黑"; }
+#Head .content .right .list .L8{border-bottom:4px solid #00b4ff; position: absolute;
+	bottom: 0;transition: left,width 0.3s,0.5s;}
+#Head .content .right .list li:nth-child(1):hover~.L8{left: 0px;width:60px;}	
+#Head .content .right .list li:nth-child(2):hover~.L8{left: 63px;width:80px;}	
+#Head .content .right .list li:nth-child(3):hover~.L8{left: 149px;width:80px;}
+#Head .content .right .list li:nth-child(4):hover~.L8{left: 234px;width:80px;}
+#Head .content .right .list .L8{left: 320px;width:80px;}
+#Head .content .right .list li:nth-child(6):hover~.L8{left: 406px;width:80px;}
+#Head .content .right .list li:nth-child(7):hover~.L8{left: 492px;width:80px;}
+/*头部结束*/
+
+/*banner开始*/
+#banner{width: 100%;background:#111;}
+#banner .content{width: 100%;height: 600px;margin: 0 auto;background: url(../img/agent-banner-1.png) no-repeat center;}
+/*banner结束*/
+
+/*agentAdv开始*/
+#agentAdv{width: 100%;background:#FF0033;}
+#agentAdv .content{width:1024px;height:40px;margin: 0 auto;position: relative;}
+#agentAdv .content li{float: left;text-align: center;width:20%;height: 40px;}
+#agentAdv .content .one a{display: block;width:204.8px; font:14px/40px "微软雅黑"; color: #fff;text-decoration: none;position: absolute;top: 0;z-index: 2;}
+#agentAdv .content .L1 a{left: 0;}
+#agentAdv .content .L2 a{left: 20%;}
+#agentAdv .content .L3 a{left: 40%;}
+#agentAdv .content .L4 a{left: 60%;}
+#agentAdv .content .L5 a{left: 80%;}
+#agentAdv .content .L6{width: 20%;height:40px;background:#00b4ff;transition: all 0.3s; position: absolute;top: 0;z-index: 1;}
+#agentAdv .content li:nth-child(1):hover~.L6{left: 0px;}
+#agentAdv .content li:nth-child(2):hover~.L6{left: 20%;}
+#agentAdv .content li:nth-child(3):hover~.L6{left: 40%;}
+#agentAdv .content .L6{left: 60%;}
+#agentAdv .content li:nth-child(5):hover~.L6{left: 80%;}
+/*agentAdv结束*/
+
+/*帮助开始*/
+#help{width: 100%;padding:70px 0 50px;background: #fff; }
+#help .content{width:1024px;margin: 0 auto;}
+#help .content .middle div{padding:20px 0 20px; border-bottom:1px dashed #ccc; }
+#help .content .middle div h4{ font-family:"微软雅黑";line-height: 34px;  color: #333;}
+#help .content .middle div p{font:14px/34px "微软雅黑"; color: #333;}
+/*帮助结束*/
+
+/*页面底部信息开始*/
+#info{width: 100%;background:#fff;padding-top: 70px;}
+#info .content{width: 1024px;margin: 0 auto;position: relative;border-bottom: 1px solid #555;}
+#info .content .top{width: 438px;height: 106px;margin: 0 auto;}
+#info .content .top a{width: 100px;height: 100px;border-radius: 50%;text-align: center;border: 3px solid #555;
+	float: left;text-decoration: none;position: relative;margin:0 20px;}
+#info .content .top a i{width: 100px;font: 50px/90px "微软雅黑";color: #555;position: absolute;top: 0;left: 0px;}
+#info .content .top a .p1{width: 106px;height: 106px;position: absolute;top: -3px;left: -3px;border-radius: 50%;
+	opacity:0;transition:opacity 0.3s;background: #00b4ff;}
+#info .content .top .a .p1 .sp1{display: block; font:12px/20px "微软雅黑";color: #fff;margin-top:33px; }
+#info .content .top .a .p1 .sp2{display: block; font:14px/20px "微软雅黑";color: #fff;}
+#info .content .top .a1 .p1 .sp1{display: block;font:14px/20px "微软雅黑";color: #fff;margin-top:43px;}
+#info .content .top .a3 .p2{width: 0px;height: 0px;position: absolute;top: 50%;left: 50%;
+	transition:all 0.4s;background: #fff;z-index: -1;opacity:0;border: 3px solid #555;border-radius: 50%;}
+#info .content .top .a3 .p2 img{width: 100%;height: 100%;}	
+#info .content .top .a3:hover .p2{width: 200px;height:200px;z-index: 1;opacity:1;top: -250px;left: -55px;border-radius: 0;}	
+#info .content .top a:hover .p1{opacity:1;}
+#info .content .bottom{width: 1024px;}
+#info .content .bottom .p1{font: 18px/24px "微软雅黑";color: #000;position: absolute;top: 40px;left: 50px;}
+#info .content .bottom .p2{font: 18px/24px "微软雅黑";color: #000;position: absolute;top:40px;right: 30px;}
+#info .content .bottom .p3{margin-top: 30px;}
+#info .content .bottom .p3,#info .content .bottom .p4{color: #000;font: 14px/20px "微软雅黑";width: 700px;margin-left:290px; }
+#info .content .bottom .p5{color: #000;margin: 5px auto 0;font: 14px/20px "微软雅黑";text-align: center;}
+#info .content .bottom .p5 .a{text-decoration: none;color: #000;font: 14px/24px "微软雅黑";}
+#info .content .bottom .p5 .a:hover{color: #00b4ff;}
+/*页面底部信息结束*/
+
+/*右侧固定定位开始*/
+#fixed{width:50px;height: 204px;position: fixed;right: 10px;bottom:105px; }
+#fixed .content{width:50px;height: 204px;}
+#fixed .content li{width:50px;height:50px ;background: #B5B5B5;margin-bottom: 
+1px;position: relative;}
+#fixed .content li a{display: block; text-decoration: none;color:#fff;text-align: center; }
+#fixed .content li a i{font:30px/50px Microsoft YaHei;}
+#fixed .content li a .L1_content{width:198px;position: absolute; top:0;left: -198px;}
+#fixed .content li a .L1_content div{width:188px;height: 88px;background: #fff;border: 1px solid rgba(200,200,200,0.8);}
+#fixed .content li a .L1_content .img{position: absolute; top:25px;left: 189px;}
+#fixed .content .L1 a .L1_content div span{display: block; width: 60px;height:60px;float: left;border:1px solid #ccc;border-radius: 50%;box-shadow: 0 0 10px #ccc inset;margin:14px 0  0 14px;}
+#fixed .content .L1 a .L1_content div span img{display: block;width: 40px;margin: 5px auto;}
+#fixed .content .L1 a .L1_content div p{width: 70px;color: #727272;float: left;margin:23px 0  0 14px;}
+#fixed .content .L2 a .L1_content div p{width: 130px;color: #727272;text-align: left; float: left;line-height: 25px;  margin:19px 0  0 14px;margin-left: 30px;}
+#fixed .content .L2 a .L1_content div p span{color:#43b6ff;}
+#fixed .content .L3 a .L1_content{top:-102px;}
+#fixed .content .L3 a .L1_content div{height: 210px;}
+#fixed .content .L3 a .L1_content .img{top:127px;}
+#fixed .content .L3 a .L1_content div span{display: block;margin:10px auto;margin-bottom: 0px;}
+#fixed .content .L3 a .L1_content div span img{width: 165px;}
+#fixed .content .L3 a .L1_content div p{width: 165px;color: #727272;font-size: 12px; margin: 0 auto;}
+#fixed .content li a .L1_content{display: none;}
+#fixed .content li:hover a i{color: #43b6ff;}
+#fixed .content li:hover a .L1_content{display:block;}
+/*右侧固定定位结束*/
+
+/*版权开始*/
+#copy{width: 100%;background: #fff;}
+#copy .content {width: 1024px;height: 90px;margin:0 auto;padding-top:5px;text-align: center; }
+#copy .content .p1{font: 14px/24px Microsoft YaHei;color: #000;}
+#copy .content .p2{font: 14px/24px Microsoft YaHei;color: #000;}
+#copy .content .p2 a{text-decoration: none;color: #000;}
+/*版权结束*/
